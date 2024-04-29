@@ -1,0 +1,30 @@
+PASS test/UserController.test.js
+  UserController
+    √ should return 404 status if user not found
+    getUserById
+      √ should return user by ID if found (4 ms)
+      √ should return 404 status if user not found (1 ms)
+    createUser
+      √ should create a new user
+    updateUser
+      √ should update user if found
+    deleteUser
+      √ should delete user if found (1 ms)
+      √ should return 404 if user not found (1 ms)
+    updateHospital
+      √ should update hospital if found (1 ms)
+      √ should return 404 if hospital not found (1 ms)
+    deleteHospital
+      √ should delete hospital if found (1 ms)
+      √ should return 404 if hospital not found
+    createHospital
+      √ should create a new hospital (1 ms)
+    getHospital
+      √ should get the hospital if found (1 ms)
+      √ should return 404 if hospital not found
+
+Test Suites: 1 passed, 1 total
+Tests:       14 passed, 14 total
+Snapshots:   0 total
+Time:        0.379 s, estimated 1 s
+Ran all test suites.
